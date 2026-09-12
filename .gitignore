@@ -1,0 +1,93 @@
+# ==========================================
+# 1. PYTHON CORE & ENVIRONMENT
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.ipynb_checkpoints
+
+# ==========================================
+# 2. VIRTUAL ENVIRONMENTS
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+target/
+.python-version
+.conda/
+conda-env/
+
+# ==========================================
+# 3. JETBRAINS PYCHARM (.idea)
+# ==========================================
+.idea/
+*.iml
+*.iws
+
+# ==========================================
+# 4. VISUAL STUDIO CODE (.vscode)
+# ==========================================
+.vscode/
+!.vscode/extensions.json
+.history/
+*.code-workspace
+
+# ==========================================
+# 5. VISUAL STUDIO (.vs)
+# ==========================================
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# 6. SENSITIVE DATA & ENVIRONMENT VARIABLES
+# ==========================================
+.env
+.env.*
+secrets.txt
+*.pem
+
+# ==========================================
+# 7. LOGS AND LOGGING FILES (NEW)
+# ==========================================
+# Ignores files like "second_largest_no.log" or any application logs
+*.log
+logs/
+log/
+*.log.*
+crash_reports/
+*.crash
+
+# ==========================================
+# 8. OPERATING SYSTEM CLUTTER
+# ==========================================
+.DS_Store
+Thumbs.db
